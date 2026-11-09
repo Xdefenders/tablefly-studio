@@ -1,1 +1,3 @@
-VXNlci1hZ2VudDogKgpBbGxvdzogLwpTaXRlbWFwOiBodHRwczovL3hkZWZlbmRlcnMuZ2l0aHViLmlvL3RhYmxlZmx5LXN0dWRpby9zaXRlbWFwLnhtbAo=
+User-agent: *
+Allow: /
+Sitemap: https://xdefenders.github.io/tablefly-studio/sitemap.xml
