@@ -1,1 +1,276 @@
-PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CjxtZXRhIGNoYXJzZXQ9IlVURi04Ij4KPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiPgo8dGl0bGU+VGFibGVmbHkgU3R1ZGlvIChJbmRpYSkg4oCUIFJlc3RhdXJhbnQgV2Vic2l0ZXMgVGhhdCBGaWxsIFRhYmxlczwvdGl0bGU+CjxtZXRhIG5hbWU9ImRlc2NyaXB0aW9uIiBjb250ZW50PSJUYWJsZWZseSBTdHVkaW8gYnVpbGRzIGZhc3QsIGJlYXV0aWZ1bCB3ZWJzaXRlcyBmb3IgcmVzdGF1cmFudHMsIGNhZsOpcyBhbmQgZm9vZCBicmFuZHMgYWNyb3NzIEluZGlhIOKAlCBwaG90byBtZW51cywgb25lLXRhcCBib29raW5nIGFuZCBXaGF0c0FwcCBvcmRlcmluZy4gRml4ZWQgcHJpY2VzIGluIOKCuSwgcGF5IGJ5IFVQSS4gRnJlZSBkZW1vIGZpcnN0OiBwYXkgb25seSBpZiB5b3UgbGlrZSBpdC4iPgo8bGluayByZWw9Imljb24iIHR5cGU9ImltYWdlL3BuZyIgaHJlZj0iaHR0cHM6Ly90YWJsZWZseS1zdHVkaW8ubmV0bGlmeS5hcHAvaHR0cHM6Ly90YWJsZWZseS1zdHVkaW8ubmV0bGlmeS5hcHAvYXNzZXRzL3RhYmxlZmx5LXByb2ZpbGUtaWNvbi1maW5hbC5wbmciPgo8bGluayByZWw9InByZWNvbm5lY3QiIGhyZWY9Imh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20iPgo8bGluayByZWw9InByZWNvbm5lY3QiIGhyZWY9Imh0dHBzOi8vZm9udHMuZ3N0YXRpYy5jb20iIGNyb3Nzb3JpZ2luPgo8bGluayBocmVmPSJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PUZyZWRva2E6d2dodEA0MDA7NTAwOzYwMDs3MDAmZmFtaWx5PU51bml0bzp3Z2h0QDQwMDs2MDA7NzAwOzgwMDs5MDAmZGlzcGxheT1zd2FwIiByZWw9InN0eWxlc2hlZXQiPgo8bGluayByZWw9InN0eWxlc2hlZXQiIGhyZWY9Ii4uL3N0eWxlLmNzcyI+CjwvaGVhZD4KPGJvZHk+Cgo8aGVhZGVyIGNsYXNzPSJzaXRlLWhlYWRlciI+CiAgPGRpdiBjbGFzcz0id3JhcCBoZWFkZXItaW4iPgogICAgPGEgY2xhc3M9ImJyYW5kIiBocmVmPSIjdG9wIiBhcmlhLWxhYmVsPSJUYWJsZWZseSBTdHVkaW8g4oCUIGhvbWUiPgogICAgICA8aW1nIHNyYz0iaHR0cHM6Ly90YWJsZWZseS1zdHVkaW8ubmV0bGlmeS5hcHAvaHR0cHM6Ly90YWJsZWZseS1zdHVkaW8ubmV0bGlmeS5hcHAvYXNzZXRzL3RhYmxlZmx5LWxvZ28tZmluYWwucG5nIiBhbHQ9IlRhYmxlZmx5IFN0dWRpbyBsb2dvIiB3aWR0aD0iNDQiIGhlaWdodD0iNDQiPgogICAgICA8c3BhbiBjbGFzcz0iYnJhbmQtbmFtZSI+VGFibGVmbHkgPGVtPlN0dWRpbzwvZW0+PC9zcGFuPgogICAgPC9hPgogICAgPG5hdiBjbGFzcz0ibWFpbi1uYXYiIGFyaWEtbGFiZWw9Ik1haW4iPgogICAgICA8YSBocmVmPSIjaG93Ij5Ib3cgaXQgd29ya3M8L2E+CiAgICAgIDxhIGhyZWY9IiNkZW1vIj5EZW1vPC9hPgogICAgICA8YSBocmVmPSIjcHJpY2luZyI+UHJpY2luZzwvYT4KICAgICAgPGEgaHJlZj0iI2VucXVpcnkiPkNvbnRhY3Q8L2E+CiAgICAgIDxzcGFuIGNsYXNzPSJtYXJrZXQtcGlsbCIgcm9sZT0iZ3JvdXAiIGFyaWEtbGFiZWw9IkNob29zZSB5b3VyIG1hcmtldCI+CiAgICAgICAgPGEgY2xhc3M9Im9uIiBocmVmPSIjdG9wIiBkYXRhLXNldC1tYXJrZXQ9ImluZGlhLyIgYXJpYS1jdXJyZW50PSJwYWdlIj5JbmRpYTwvYT4KICAgICAgICA8YSBocmVmPSIuLi93b3JsZHdpZGUvIiBkYXRhLXNldC1tYXJrZXQ9Indvcmxkd2lkZS8iIHRpdGxlPSJTd2l0Y2ggdG8gdGhlIFdvcmxkd2lkZSBwYWdlIChVU0QgcHJpY2luZykiPldvcmxkd2lkZTwvYT4KICAgICAgPC9zcGFuPgogICAgPC9uYXY+CiAgPC9kaXY+CjwvaGVhZGVyPgoKPG1haW4gaWQ9InRvcCI+CgogIDwhLS0gSEVSTyAtLT4KICA8c2VjdGlvbiBjbGFzcz0iaGVybyI+CiAgICA8ZGl2IGNsYXNzPSJ3cmFwIGhlcm8taW4iPgogICAgICA8ZGl2IGNsYXNzPSJoZXJvLWNvcHkiPgogICAgICAgIDxwIGNsYXNzPSJraWNrZXIiPlRhYmxlZmx5IFN0dWRpbyDigJQgV2Vic2l0ZXMgZm9yIFJlc3RhdXJhbnRzPC9wPgogICAgICAgIDxoMT5XZWJzaXRlcyB0aGF0IDxlbT5maWxsPC9lbT4gdGFibGVzLjwvaDE+CiAgICAgICAgPHAgY2xhc3M9Imhlcm8tc3ViIj5XZSBkZXNpZ24gZmFzdCwgYmVhdXRpZnVsIHdlYnNpdGVzIGZvciByZXN0YXVyYW50cywgY2Fmw6lzIGFuZCBmb29kIGJyYW5kcyDigJQgd2l0aCB5b3VyIHBob3RvIG1lbnUsIG9uZS10YXAgYm9va2luZyBhbmQgZGlyZWN0IG9yZGVyaW5nIGJ1aWx0IGluIGZyb20gZGF5IG9uZS48L3A+CiAgICAgICAgPGRpdiBjbGFzcz0ib2ZmZXItYmFkZ2UiPvCfjokgPHN0cm9uZz5GcmVlIGRlbW8gZmlyc3Q8L3N0cm9uZz4g4oCUIHdlIGJ1aWxkIHlvdXIgZGVtbyBiZWZvcmUgeW91IHBheSBhbnl0aGluZy4gUGF5IG9ubHkgaWYgeW91IGxpa2UgaXQuPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0iaGVyby1jdGFzIj4KICAgICAgICAgIDxhIGNsYXNzPSJidG4gYnRuLWdob3N0IGJ0bi1sZyIgaHJlZj0iI2RlbW8iPlNlZSBhIGxpdmUgZGVtbzwvYT4KICAgICAgICAgIDxhIGNsYXNzPSJidG4gYnRuLXByaW1hcnkgYnRuLWxnIiBocmVmPSIjZW5xdWlyeSI+R2V0IG15IGZyZWUgZGVtbzwvYT4KICAgICAgICA8L2Rpdj4KICAgICAgICA8cCBjbGFzcz0iaGVyby1ub3RlIj5Zb3UgcHVyY2hhc2UgeW91ciBkb21haW4gaW4geW91ciBvd24gbmFtZSDigJQgaXQgc3RheXMgZW50aXJlbHkgeW91cnMuPC9wPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iaGVyby1hcmNoIj4KICAgICAgICA8aW1nIHNyYz0iaHR0cHM6Ly90YWJsZWZseS1zdHVkaW8ubmV0bGlmeS5hcHAvaHR0cHM6Ly90YWJsZWZseS1zdHVkaW8ubmV0bGlmeS5hcHAvYXNzZXRzL2hlcm8tdGlra2EuanBnIiBhbHQ9IkNoaWNrZW4gdGlra2Ega2ViYWJzIGZyZXNoIG9mZiB0aGUgZ3JpbGwiIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjE1MDAiPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvc2VjdGlvbj4KCiAgPCEtLSBKT1VSTkVZIC0tPgogIDxzZWN0aW9uIGlkPSJob3ciIGNsYXNzPSJzZWN0aW9uIGpvdXJuZXkiPgogICAgPGRpdiBjbGFzcz0id3JhcCI+CiAgICAgIDxwIGNsYXNzPSJleWVicm93IGNlbnRlciI+SG93IGl0IHdvcmtzPC9wPgogICAgICA8aDIgY2xhc3M9ImNlbnRlciI+Rm91ciBzdGVwcyBiZXR3ZWVuIHlvdTxicj5hbmQgYSBmdWxsIGhvdXNlPC9oMj4KICAgICAgPGRpdiBjbGFzcz0iam91cm5leS1ncmlkIj4KICAgICAgICA8ZGl2IGNsYXNzPSJqc3RlcCBydiI+CiAgICAgICAgICA8c3BhbiBjbGFzcz0ibnVtIj4wMTwvc3Bhbj4KICAgICAgICAgIDxoMz5TaGFyZSB5b3VyIHJlc3RhdXJhbnQmIzgyMTc7cyBkZXRhaWxzPC9oMz4KICAgICAgICAgIDxwPkNvbXBsZXRlIHRoZSBzaG9ydCBlbnF1aXJ5IGZvcm0gYmVsb3cgd2l0aCB5b3VyIHJlc3RhdXJhbnQmIzgyMTc7cyBuYW1lLCBjaXR5IGFuZCBjdWlzaW5lLiBJdCB0YWtlcyBhYm91dCB0d28gbWludXRlcy48L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ianN0ZXAgcnYiPgogICAgICAgICAgPHNwYW4gY2xhc3M9Im51bSI+MDI8L3NwYW4+CiAgICAgICAgICA8aDM+UmV2aWV3IHlvdXIgZnJlZSBkZW1vPC9oMz4KICAgICAgICAgIDxwPldlIGRlc2lnbiBhIGRlbW8gaG9tZXBhZ2UgZm9yIHlvdXIgcmVzdGF1cmFudCBhbmQgZW1haWwgeW91IHRoZSBsaW5rIOKAlCBhIHJlYWwgZGVzaWduIHdpdGggeW91ciBuYW1lIGFuZCB5b3VyIG1lbnUuIFRoZSBkZW1vIGlzIGZyZWUsIGFuZCB5b3UgcGF5IG9ubHkgaWYgeW91IGFwcHJvdmUgaXQuPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImpzdGVwIHJ2Ij4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJudW0iPjAzPC9zcGFuPgogICAgICAgICAgPGgzPkdvIGxpdmUgaW4gNeKAkzcgd29ya2luZyBkYXlzPC9oMz4KICAgICAgICAgIDxwPk9uY2UgeW91IGFwcHJvdmUgdGhlIGRlbW8gYW5kIGNvbXBsZXRlIGEgc2hvcnQgcmVxdWlyZW1lbnRzIGNoZWNrbGlzdCwgeW91ciBjb21wbGV0ZSB3ZWJzaXRlIGdvZXMgbGl2ZSB3aXRoaW4gNeKAkzcgd29ya2luZyBkYXlzIOKAlCBndWFyYW50ZWVkIGluIHdyaXRpbmcuPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImpzdGVwIHJ2Ij4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJudW0iPjA0PC9zcGFuPgogICAgICAgICAgPGgzPkJvb2tpbmdzICZhbXA7IG9yZGVycywgZGlyZWN0IHRvIHlvdTwvaDM+CiAgICAgICAgICA8cD5HdWVzdHMgcmVzZXJ2ZSB0YWJsZXMgYW5kIHBsYWNlIG9yZGVycyBkaXJlY3RseSB0aHJvdWdoIHlvdXIgd2Vic2l0ZSDigJQgbm8gbWlkZGxlbWVuLCBhbmQgbm8gY29tbWlzc2lvbiBvbiB5b3VyIG9yZGVycy48L3A+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9zZWN0aW9uPgoKICA8IS0tIERFTU8gLS0+CiAgPHNlY3Rpb24gaWQ9ImRlbW8iIGNsYXNzPSJzZWN0aW9uIj4KICAgIDxkaXYgY2xhc3M9IndyYXAiPgogICAgICA8cCBjbGFzcz0iZXllYnJvdyBjZW50ZXIiPkxpdmUgZGVtbzwvcD4KICAgICAgPGgyIGNsYXNzPSJjZW50ZXIiPlJldmlldyBhIGxpdmUgc2FtcGxlIGZpcnN0PC9oMj4KICAgICAgPHAgY2xhc3M9InNlY3Rpb24tc3ViIGNlbnRlciI+QSByZWFsIGRlbW8gaG9tZXBhZ2UsIGJ1aWx0IGZvciBhbiBhY3R1YWwgcmVzdGF1cmFudCDigJQgdGhlIHNhbWUgZnJlZSBkZW1vIHdlIHdpbGwgcHJlcGFyZSBmb3IgeW91LjwvcD4KICAgICAgPGFydGljbGUgY2xhc3M9ImRlbW8tY2FyZCBydiI+CiAgICAgICAgPGltZyBzcmM9Imh0dHBzOi8vdGFibGVmbHktaW5kaWEubmV0bGlmeS5hcHAvaHR0cHM6Ly90YWJsZWZseS1pbmRpYS5uZXRsaWZ5LmFwcC9hc3NldHMvdGFuZG9vcmktcGxhdHRlci5qcGciIGFsdD0iVGFuZG9vcmkgbWl4ZWQgcGxhdHRlciIgbG9hZGluZz0ibGF6eSI+CiAgICAgICAgPGRpdiBjbGFzcz0iZGVtby1ib2R5Ij4KICAgICAgICAgIDxoMz5DYWZlIEtlYmFicyDigJQgc2FtcGxlIGRlbW8gaG9tZXBhZ2U8L2gzPgogICAgICAgICAgPHA+QSBjb21wbGV0ZSB3b3JraW5nIHNhbXBsZTogYSBwaG90byBtZW51IHRoYXQgcmVhZHMgY2xlYXJseSBvbiBhbnkgcGhvbmUgKG5vIHBpbmNoLWFuZC16b29tIFBERnMpLCB5b3VyIGdlbnVpbmUgR29vZ2xlIHJhdGluZyBkaXNwbGF5ZWQgcHJvbWluZW50bHksIGFuZCBvbmUtdGFwIFdoYXRzQXBwIG9yZGVyaW5nLiBUaGUgZGVtbyB1c2VzIHNhbXBsZSBmb29kIHBob3RvZ3JhcGh5IOKAlCB5b3VyIGZpbmlzaGVkIHdlYnNpdGUgd2lsbCBmZWF0dXJlIHlvdXIgb3duIGRpc2hlcy48L3A+CiAgICAgICAgICA8YSBjbGFzcz0iYnRuIGJ0bi1wcmltYXJ5IiBocmVmPSJodHRwczovL2NhZmUta2ViYWJzLWRlbW8tazlwMng3bS5uZXRsaWZ5LmFwcC8iIHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIj5WaWV3IHRoZSBsaXZlIGRlbW88L2E+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvYXJ0aWNsZT4KICAgIDwvZGl2PgogIDwvc2VjdGlvbj4KCiAgPCEtLSBQUklDSU5HIOKAlCBkYXJrIGNlbnRlcnBpZWNlIGJhbmQgLS0+CiAgPHNlY3Rpb24gaWQ9InByaWNpbmciIGNsYXNzPSJwcmljaW5nLWJhbmQiPgogICAgPGRpdiBjbGFzcz0id3JhcCI+CiAgICAgIDxwIGNsYXNzPSJraWNrZXIgY2VudGVyIj5QcmljaW5nPC9wPgogICAgICA8aDIgY2xhc3M9ImNlbnRlciI+RXZlcnl0aGluZyB5b3UgbmVlZC48YnI+PGVtPk5vdGhpbmcgeW91IGRvbid0LjwvZW0+PC9oMj4KICAgICAgPHAgY2xhc3M9ImJhbmQtc3ViIGNlbnRlciI+T25lIGZpeGVkIHByaWNlLCBwdWJsaXNoZWQgcmlnaHQgaGVyZS4gTm8gc2FsZXMgY2FsbCBuZWVkZWQgdG8gZmluZCBvdXQgd2hhdCB5b3VyIHdlYnNpdGUgY29zdHMuPC9wPgoKICAgICAgPGRpdiBjbGFzcz0iZmVhdC1yb3ciPgogICAgICAgIDxkaXYgY2xhc3M9ImZlYXQiPgogICAgICAgICAgPHNwYW4gY2xhc3M9ImZudW0iPiggMDEgKTwvc3Bhbj4KICAgICAgICAgIDxoMz5QaG90byBtZW51PC9oMz4KICAgICAgICAgIDxwPllvdXIgZGlzaGVzLCBwaG90b2dyYXBoZWQgYW5kIHJlYWRhYmxlIG9uIGFueSBwaG9uZSDigJQgbm8gUERGIHBpbmNoLXpvb20uPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImZlYXQiPgogICAgICAgICAgPHNwYW4gY2xhc3M9ImZudW0iPiggMDIgKTwvc3Bhbj4KICAgICAgICAgIDxoMz5PbmUtdGFwIGJvb2tpbmc8L2gzPgogICAgICAgICAgPHA+R3Vlc3RzIHJlc2VydmUgYSB0YWJsZSBzdHJhaWdodCBmcm9tIHRoZSBwYWdlLCBpbiBvbmUgdGFwLjwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJmZWF0Ij4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJmbnVtIj4oIDAzICk8L3NwYW4+CiAgICAgICAgICA8aDM+V2hhdHNBcHAgb3JkZXJpbmc8L2gzPgogICAgICAgICAgPHA+T3JkZXJzIGxhbmQgb24geW91ciBXaGF0c0FwcCDigJQgZGlyZWN0IGZyb20gZ3Vlc3QgdG8geW91LjwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJmZWF0Ij4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJmbnVtIj4oIDA0ICk8L3NwYW4+CiAgICAgICAgICA8aDM+WW91ciByZWFsIEdvb2dsZSByYXRpbmcsIHVwIGZyb250PC9oMz4KICAgICAgICAgIDxwPllvdXIgcmF0aW5nIGFuZCByZXZpZXdzIHNob3duIHdoZXJlIGd1ZXN0cyBkZWNpZGUuPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImZlYXQiPgogICAgICAgICAgPHNwYW4gY2xhc3M9ImZudW0iPiggMDUgKTwvc3Bhbj4KICAgICAgICAgIDxoMz5ObyBtaWRkbGVtYW4gY29tbWlzc2lvbjwvaDM+CiAgICAgICAgICA8cD5FdmVyeSBib29raW5nIGFuZCBvcmRlciBpcyB5b3VycyDigJQgbm8gcGxhdGZvcm0gY3V0LjwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8ZmlndXJlIGNsYXNzPSJiYW5kLXBob3RvIj4KICAgICAgICA8aW1nIHNyYz0iLi4vYXNzZXRzL2hvdGVsLWluZGlhLndlYnAiIGFsdD0iR3JhbmQgSW5kaWFuIHBhbGFjZS1zdHlsZSBsdXh1cnkgaG90ZWwiIGxvYWRpbmc9ImxhenkiPgogICAgICA8L2ZpZ3VyZT4KCiAgICAgIDxkaXYgY2xhc3M9InByaWNlLWdyaWQiPgogICAgICAgIDxhcnRpY2xlIGNsYXNzPSJwcmljZS1jYXJkIHJ2Ij4KICAgICAgICAgIDxoMz5CYXNpYzwvaDM+CiAgICAgICAgICA8cCBjbGFzcz0icHJpY2UiPuKCuTcsOTk5PC9wPgogICAgICAgICAgPHAgY2xhc3M9InByaWNlLW5vdGUiPm9uZS10aW1lPC9wPgogICAgICAgICAgPHVsPgogICAgICAgICAgICA8bGk+T25lLXBhZ2Ugd2Vic2l0ZTwvbGk+CiAgICAgICAgICAgIDxsaT5QaG90byBtZW51PC9saT4KICAgICAgICAgICAgPGxpPldoYXRzQXBwIG9yZGVyIGJ1dHRvbjwvbGk+CiAgICAgICAgICAgIDxsaT5Hb29nbGUgTWFwcyArIHlvdXIgcmV2aWV3czwvbGk+CiAgICAgICAgICA8L3VsPgogICAgICAgICAgPGEgY2xhc3M9ImJ0biBidG4tb3V0bGluZS1saWdodCIgaHJlZj0iI2VucXVpcnkiPlN0YXJ0IHdpdGggYSBmcmVlIGRlbW88L2E+CiAgICAgICAgPC9hcnRpY2xlPgogICAgICAgIDxhcnRpY2xlIGNsYXNzPSJwcmljZS1jYXJkIGZlYXR1cmVkIHJ2Ij4KICAgICAgICAgIDxwIGNsYXNzPSJ0YWciPkJlc3QgdmFsdWU8L3A+CiAgICAgICAgICA8aDM+U3RhbmRhcmQ8L2gzPgogICAgICAgICAgPHAgY2xhc3M9InByaWNlIj7igrkxMiw5OTk8L3A+CiAgICAgICAgICA8cCBjbGFzcz0icHJpY2Utbm90ZSI+b25lLXRpbWU8L3A+CiAgICAgICAgICA8dWw+CiAgICAgICAgICAgIDxsaT5FdmVyeXRoaW5nIGluIEJhc2ljPC9saT4KICAgICAgICAgICAgPGxpPkJvb2tpbmcgLyBlbnF1aXJ5IGZvcm08L2xpPgogICAgICAgICAgICA8bGk+UGhvdG8gZ2FsbGVyeTwvbGk+CiAgICAgICAgICAgIDxsaT5Ud28tbGFuZ3VhZ2UgbWVudSBwYWdlPC9saT4KICAgICAgICAgIDwvdWw+CiAgICAgICAgICA8YSBjbGFzcz0iYnRuIGJ0bi1saWdodCIgaHJlZj0iI2VucXVpcnkiPlN0YXJ0IHdpdGggYSBmcmVlIGRlbW88L2E+CiAgICAgICAgPC9hcnRpY2xlPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3M9Imd1YXJhbnRlZS1zdHJpcCI+CiAgICAgICAgPHA+PHN0cm9uZz5HbyBsaXZlIGluIDXigJM3IHdvcmtpbmcgZGF5cyDigJQgZ3VhcmFudGVlZCBpbiB3cml0aW5nLjwvc3Ryb25nPiBJZiB3ZSBhcmUgZXZlciBsYXRlIGZvciBhIHJlYXNvbiBvbiBvdXIgc2lkZSwgeW91ciBmaXJzdCBtb250aCBvZiBtYWludGVuYW5jZSBpcyBmcmVlLjwvcD4KICAgICAgICA8cCBjbGFzcz0iZy1saW5lMiI+V3JpdHRlbiBpbnZvaWNlIGJlZm9yZSB5b3UgcGF5IGFueXRoaW5nLiBZb3VyIGRvbWFpbiBpcyBib3VnaHQgaW4geW91ciBvd24gbmFtZSDigJQgeW91ciB3ZWJzaXRlIHN0YXlzIDEwMCUgeW91cnMuPC9wPgogICAgICA8L2Rpdj4KICAgICAgPHAgY2xhc3M9Im1haW50ZW5hbmNlLWxpbmUiPjxzdHJvbmc+T3B0aW9uYWwgbWFpbnRlbmFuY2Ug4oCUIOKCuTc5OS9tb250aC48L3N0cm9uZz4gTWVudSB1cGRhdGVzLCBwaG90byBjaGFuZ2VzIGFuZCBzbWFsbCB0d2Vha3MgaGFuZGxlZCBmb3IgeW91IOKAlCAyIHNtYWxsIHVwZGF0ZXMgYSBtb250aCBpbmNsdWRlZC4gQ2FuY2VsIGFueXRpbWUuPC9wPgogICAgPC9kaXY+CiAgPC9zZWN0aW9uPgoKICA8IS0tIEVOUVVJUlkgRk9STSAtLT4KICA8c2VjdGlvbiBpZD0iZW5xdWlyeSIgY2xhc3M9InNlY3Rpb24gZW5xdWlyeSI+CiAgICA8ZGl2IGNsYXNzPSJ3cmFwIj4KICAgICAgPHAgY2xhc3M9ImV5ZWJyb3cgY2VudGVyIj5GcmVlIGRlbW88L3A+CiAgICAgIDxoMiBjbGFzcz0iY2VudGVyIj5SZXF1ZXN0IHlvdXIgZnJlZSBkZW1vPC9oMj4KICAgICAgPHAgY2xhc3M9InNlY3Rpb24tc3ViIGNlbnRlciI+U2hhcmUgeW91ciByZXN0YXVyYW50JiM4MjE3O3MgZGV0YWlscy4gWW91IHdpbGwgcmVjZWl2ZSBhbiBpbnN0YW50IGNvbmZpcm1hdGlvbiBlbWFpbCB3aXRoIHRoZSBkZW1vIGRldGFpbHMgYW5kIG5leHQgc3RlcHMg4oCUIGFuZCBhIHBlcnNvbmFsIHJlcGx5IGZyb20gdXMuPC9wPgogICAgICA8ZGl2IGNsYXNzPSJ0cnVzdHJvdyI+CiAgICAgICAgPHNwYW4+4pyTIEZyZWUgZGVtbyBiZWZvcmUgeW91IHBheSBhbnl0aGluZzwvc3Bhbj4KICAgICAgICA8c3Bhbj7inJMgV3JpdHRlbiBpbnZvaWNlIGJlZm9yZSBhbnkgcGF5bWVudDwvc3Bhbj4KICAgICAgICA8c3Bhbj7inJMgWW91ciBkZXRhaWxzIGFyZSBuZXZlciBzb2xkIG9yIHNoYXJlZDwvc3Bhbj4KICAgICAgPC9kaXY+CiAgICAgIDxmb3JtIGNsYXNzPSJlZm9ybSIgYWN0aW9uPSJodHRwczovL2Zvcm1zdWJtaXQuY28vaGVsbG8udGFibGVmbHlAZ21haWwuY29tIiBtZXRob2Q9IlBPU1QiPgogICAgICAgIDxkaXYgY2xhc3M9ImNhcmRoZWFkIj4KICAgICAgICAgIDxpbWcgc3JjPSJodHRwczovL3RhYmxlZmx5LXN0dWRpby5uZXRsaWZ5LmFwcC9odHRwczovL3RhYmxlZmx5LXN0dWRpby5uZXRsaWZ5LmFwcC9hc3NldHMvdGFibGVmbHktcHJvZmlsZS1pY29uLWZpbmFsLnBuZyIgYWx0PSJUYWJsZWZseSBTdHVkaW8gc3VuIGxvZ28iPgogICAgICAgICAgPGI+VGFibGVmbHkgU3R1ZGlvPC9iPjxzcGFuPlJFU1RBVVJBTlQgRU5RVUlSWTwvc3Bhbj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8aW5wdXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJfc3ViamVjdCIgdmFsdWU9Ik5ldyByZXN0YXVyYW50IGVucXVpcnkg4oCUIFRhYmxlZmx5IFN0dWRpbyAoSW5kaWEpIj4KICAgICAgICA8aW5wdXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJfdGVtcGxhdGUiIHZhbHVlPSJ0YWJsZSI+CiAgICAgICAgPGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT0iX2F1dG9yZXNwb25zZSIgdmFsdWU9IlRoYW5rIHlvdSBmb3IgY29udGFjdGluZyBUYWJsZWZseSBTdHVkaW8uIFlvdXIgZW5xdWlyeSBoYXMgcmVhY2hlZCB1cyBzYWZlbHkg4oCUIHdlIHJlcGx5IHBlcnNvbmFsbHksIHVzdWFsbHkgd2l0aGluIG9uZSB3b3JraW5nIGRheSAoTW9uLVNhdCwgSW5kaWEgdGltZSkuIEhlcmUgaXMgd2hhdCBoYXBwZW5zIG5leHQ6ICgxKSBXZSBhdWRpdCBob3cgeW91ciByZXN0YXVyYW50IGxvb2tzIG9ubGluZSB0b2RheSDigJQgd2Vic2l0ZSwgR29vZ2xlIHByb2ZpbGUsIG1lbnUgYW5kIHJldmlld3Mg4oCUIGZyZWUgb2YgY2hhcmdlLiAoMikgV2UgYnVpbGQgYSBmcmVlIGRlbW8gaG9tZXBhZ2Ugb2YgWU9VUiByZXN0YXVyYW50IGFuZCBlbWFpbCB5b3UgdGhlIGxpbms6IHJlYWwgZGVzaWduLCB5b3VyIG5hbWUsIHlvdXIgbWVudSDigJQgbm90IGEgdGVtcGxhdGUgc2NyZWVuc2hvdC4gKDMpIElmIHlvdSBsaWtlIHRoZSBkZW1vLCB5b3UgYXBwcm92ZSBpdCBhbmQgd2UgYnVpbGQgeW91ciBmdWxsIHdlYnNpdGUuIEl0IGdvZXMgbGl2ZSB3aXRoaW4gNS03IHdvcmtpbmcgZGF5cyBvZiB1cyByZWNlaXZpbmcgeW91ciBjb21wbGV0ZSByZXF1aXJlbWVudHMgYW5kIGFkdmFuY2Ug4oCUIGd1YXJhbnRlZWQgaW4gd3JpdGluZzogaWYgd2UgYXJlIGxhdGUgZm9yIGEgcmVhc29uIG9uIG91ciBzaWRlLCB5b3VyIGZpcnN0IG1vbnRoIG9mIG1haW50ZW5hbmNlIGlzIGZyZWUuIEluZGlhIHByaWNpbmcgKGZpeGVkLCBwdWJsaXNoZWQgb24gb3VyIHdlYnNpdGUpOiBCYXNpYyBScyA3LDk5OSwgU3RhbmRhcmQgUnMgMTIsOTk5LCBvcHRpb25hbCBtYWludGVuYW5jZSBScyA3OTkvbW9udGguIFlvdSByZWNlaXZlIGEgd3JpdHRlbiBpbnZvaWNlIGJlZm9yZSB5b3UgcGF5IGFueXRoaW5nLCBhbmQgeW91ciBkb21haW4gaXMgYWx3YXlzIGJvdWdodCBpbiB5b3VyIG93biBuYW1lIOKAlCB5b3VyIHdlYnNpdGUgc3RheXMgMTAwJSB5b3Vycy4gQW55dGhpbmcgZWxzZSB5b3Ugd291bGQgbGlrZSB1cyB0byBrbm93IGFib3V0IHlvdXIgcmVzdGF1cmFudD8gSnVzdCByZXBseSB0byB0aGlzIGVtYWlsLiDigJQgVGFibGVmbHkgU3R1ZGlvIMK3IFdlYnNpdGVzIHRoYXQgZmlsbCB0YWJsZXMuIj4KICAgICAgICA8aW5wdXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJfbmV4dCIgdmFsdWU9InRoYW5reW91Lmh0bWwiPgogICAgICAgIDxpbnB1dCB0eXBlPSJ0ZXh0IiBuYW1lPSJfaG9uZXkiIHN0eWxlPSJkaXNwbGF5Om5vbmUiIHRhYmluZGV4PSItMSIgYXV0b2NvbXBsZXRlPSJvZmYiPgogICAgICAgIDxpbnB1dCB0eXBlPSJoaWRkZW4iIG5hbWU9Im1hcmtldCIgdmFsdWU9IkluZGlhIj4KICAgICAgICA8ZGl2IGNsYXNzPSJyb3ciPgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGxhYmVsIGZvcj0iaW4tbmFtZSI+WW91ciBmdWxsIG5hbWU8L2xhYmVsPgogICAgICAgICAgICA8aW5wdXQgaWQ9ImluLW5hbWUiIHR5cGU9InRleHQiIG5hbWU9ImNvbnRhY3RfbmFtZSIgcGxhY2Vob2xkZXI9ImUuZy4sIFJvaGl0IFNoYXJtYSIgcmVxdWlyZWQ+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxsYWJlbCBmb3I9ImluLXJlc3QiPlJlc3RhdXJhbnQgbmFtZTwvbGFiZWw+CiAgICAgICAgICAgIDxpbnB1dCBpZD0iaW4tcmVzdCIgdHlwZT0idGV4dCIgbmFtZT0icmVzdGF1cmFudF9uYW1lIiBwbGFjZWhvbGRlcj0iZS5nLiwgQ2FmZSBLZWJhYnMiIHJlcXVpcmVkPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0icm93Ij4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxsYWJlbCBmb3I9ImluLWVtYWlsIj5Xb3JrIGVtYWlsPC9sYWJlbD4KICAgICAgICAgICAgPGlucHV0IGlkPSJpbi1lbWFpbCIgdHlwZT0iZW1haWwiIG5hbWU9ImVtYWlsIiBwbGFjZWhvbGRlcj0ieW91QHlvdXJyZXN0YXVyYW50LmluIiByZXF1aXJlZD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGxhYmVsIGZvcj0iaW4tdGVsIj5Db250YWN0IG51bWJlciA8c3BhbiBjbGFzcz0ib3B0Ij4ob3B0aW9uYWwpPC9zcGFuPjwvbGFiZWw+CiAgICAgICAgICAgIDxpbnB1dCBpZD0iaW4tdGVsIiB0eXBlPSJ0ZWwiIG5hbWU9ImNvbnRhY3RfbnVtYmVyIiBwbGFjZWhvbGRlcj0iV2l0aCBjb3VudHJ5IGNvZGUiPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGxhYmVsIGZvcj0iaW4tY2l0eSI+Q2l0eSAmYW1wOyBjb3VudHJ5PC9sYWJlbD4KICAgICAgICA8aW5wdXQgaWQ9ImluLWNpdHkiIHR5cGU9InRleHQiIG5hbWU9ImNpdHlfY291bnRyeSIgcGxhY2Vob2xkZXI9ImUuZy4sIEphaXB1ciwgSW5kaWEiIHJlcXVpcmVkPgogICAgICAgIDxsYWJlbCBmb3I9ImluLW1zZyI+QW55dGhpbmcgd2Ugc2hvdWxkIGtub3c/IDxzcGFuIGNsYXNzPSJvcHQiPihvcHRpb25hbCk8L3NwYW4+PC9sYWJlbD4KICAgICAgICA8dGV4dGFyZWEgaWQ9ImluLW1zZyIgbmFtZT0ibWVzc2FnZSIgcm93cz0iMyIgcGxhY2Vob2xkZXI9ImUuZy4sIFdlIGhhdmUgbm8gd2Vic2l0ZSB5ZXQg4oCUIGd1ZXN0cyBvbmx5IGZpbmQgdXMgb24gSW5zdGFncmFtIj48L3RleHRhcmVhPgogICAgICAgIDxsYWJlbCBjbGFzcz0iY29uc2VudCI+PGlucHV0IHR5cGU9ImNoZWNrYm94IiByZXF1aXJlZD48c3Bhbj5JIGNvbmZpcm0gdGhpcyBpcyBhIGJ1c2luZXNzIGVucXVpcnkgYW5kIEkgYWdyZWUgdG8gYmUgY29udGFjdGVkIGFib3V0IGl0IGJ5IGVtYWlsLjwvc3Bhbj48L2xhYmVsPgogICAgICAgIDxidXR0b24gY2xhc3M9ImJ0biBidG4tbGciIHR5cGU9InN1Ym1pdCI+UmVxdWVzdCBteSBmcmVlIGRlbW88L2J1dHRvbj4KICAgICAgICA8cCBjbGFzcz0iZmluZSI+R2l2aW5nIHlvdXIgbnVtYmVyIGlzIG9wdGlvbmFsLiBJZiB5b3Ugc2hhcmUgaXQsIGl0IGlzIHVzZWQgb25seSB0byBjb29yZGluYXRlIHlvdXIgc2VydmljZSBpZiB5b3UgYmVjb21lIGEgY2xpZW50IOKAlCBuZXZlciBmb3Igc2FsZXMgY2FsbHMuIFlvdXIgZGV0YWlscyBzdGF5IHdpdGggVGFibGVmbHkgU3R1ZGlvIGFuZCBhcmUgdXNlZCBvbmx5IHRvIHJlcGx5IHRvIHRoaXMgZW5xdWlyeS48L3A+CiAgICAgIDwvZm9ybT4KICAgICAgPHAgY2xhc3M9InNlY3Rpb24tc3ViIGNlbnRlciIgc3R5bGU9Im1hcmdpbi10b3A6MS44ZW0iPlByZWZlciBlbWFpbD8gV3JpdGUgdG8gdXMgYXQgPGEgaHJlZj0ibWFpbHRvOmhlbGxvLnRhYmxlZmx5QGdtYWlsLmNvbSI+aGVsbG8udGFibGVmbHlAZ21haWwuY29tPC9hPjwvcD4KICAgIDwvZGl2PgogIDwvc2VjdGlvbj4KCjwvbWFpbj4KCjxpbWcgY2xhc3M9InNreWxpbmUiIHNyYz0iLi4vYXNzZXRzL3NreWxpbmUtaW5kaWEud2VicCIgYWx0PSJJbGx1c3RyYXRlZCBza3lsaW5lIG9mIEluZGlhJ3MgZmFtb3VzIGxhbmRtYXJrcyIgbG9hZGluZz0ibGF6eSI+Cgo8Zm9vdGVyIGNsYXNzPSJzaXRlLWZvb3RlciI+CiAgPGRpdiBjbGFzcz0id3JhcCI+CiAgICA8cCBjbGFzcz0iYnJhbmQtbGluZSI+V2Vic2l0ZXMgdGhhdCBmaWxsIDxlbT50YWJsZXMuPC9lbT48L3A+CiAgICA8cCBjbGFzcz0iZm9vdGVyLXN1YiI+V2ViIGRlc2lnbiBzdHVkaW8gZm9yIHJlc3RhdXJhbnRzLCBjYWbDqXMgJmFtcDsgZm9vZCBicmFuZHMuPC9wPgogICAgPHAgY2xhc3M9ImZvb3Rlci1tZXRhIj48YSBocmVmPSJtYWlsdG86aGVsbG8udGFibGVmbHlAZ21haWwuY29tIj5Db250YWN0IHVzPC9hPjwvcD4KICAgIDxwIGNsYXNzPSJmb290ZXItbGlua3MiPjxhIGhyZWY9Ii4uL3Rlcm1zLmh0bWwiPlRlcm1zICZhbXA7IENvbmRpdGlvbnM8L2E+IMK3IDxhIGhyZWY9Ii4uL3ByaXZhY3kuaHRtbCI+UHJpdmFjeSBQb2xpY3k8L2E+PC9wPgogICAgPHAgY2xhc3M9ImZvb3Rlci1jb3B5Ij7CqSBUYWJsZWZseSBTdHVkaW88L3A+CiAgPC9kaXY+CjwvZm9vdGVyPgoKPHNjcmlwdD4KKGZ1bmN0aW9uKCl7CiAgLy8gTWFya2V0IHN3aXRjaCBsaW5rczogcmVtZW1iZXIgdGhlIG1hbnVhbCBjaG9pY2Ugc28gdGhlIGdhdGV3YXkKICAvLyBhdXRvLWRldGVjdCBkb2VzIG5vdCBib3VuY2UgdGhlIHZpc2l0b3IgYmFjay4KICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdbZGF0YS1zZXQtbWFya2V0XScpLmZvckVhY2goZnVuY3Rpb24oYSl7CiAgICBhLmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgZnVuY3Rpb24oKXsKICAgICAgdHJ5eyBsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgndGFibGVmbHktbWFya2V0JywgYS5nZXRBdHRyaWJ1dGUoJ2RhdGEtc2V0LW1hcmtldCcpKTsgfWNhdGNoKGUpe30KICAgIH0pOwogIH0pOwogIC8vIEhlYWRlciBzaGFkb3cgb24gc2Nyb2xsCiAgdmFyIGhlYWRlciA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5zaXRlLWhlYWRlcicpOwogIGlmKGhlYWRlcil7CiAgICB2YXIgb25TY3JvbGwgPSBmdW5jdGlvbigpeyBoZWFkZXIuY2xhc3NMaXN0LnRvZ2dsZSgnc2Nyb2xsZWQnLCB3aW5kb3cuc2Nyb2xsWSA+IDgpOyB9OwogICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoJ3Njcm9sbCcsIG9uU2Nyb2xsLCB7cGFzc2l2ZTp0cnVlfSk7IG9uU2Nyb2xsKCk7CiAgfQogIC8vIFNjcm9sbCByZXZlYWwKICB2YXIgcmVkdWNlID0gd2luZG93Lm1hdGNoTWVkaWEoJyhwcmVmZXJzLXJlZHVjZWQtbW90aW9uOiByZWR1Y2UpJykubWF0Y2hlczsKICB2YXIgdGFyZ2V0cyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJy5ydicpOwogIGlmKCdJbnRlcnNlY3Rpb25PYnNlcnZlcicgaW4gd2luZG93ICYmICFyZWR1Y2UpewogICAgdmFyIGlvID0gbmV3IEludGVyc2VjdGlvbk9ic2VydmVyKGZ1bmN0aW9uKGVzKXsKICAgICAgZXMuZm9yRWFjaChmdW5jdGlvbihlKXsgaWYoZS5pc0ludGVyc2VjdGluZyl7IGUudGFyZ2V0LmNsYXNzTGlzdC5hZGQoJ3J2LWluJyk7IGlvLnVub2JzZXJ2ZShlLnRhcmdldCk7IH0gfSk7CiAgICB9LCB7dGhyZXNob2xkOiAuMTJ9KTsKICAgIHRhcmdldHMuZm9yRWFjaChmdW5jdGlvbihlbCl7IGlvLm9ic2VydmUoZWwpOyB9KTsKICB9IGVsc2UgewogICAgdGFyZ2V0cy5mb3JFYWNoKGZ1bmN0aW9uKGVsKXsgZWwuY2xhc3NMaXN0LmFkZCgncnYtaW4nKTsgfSk7CiAgfQp9KSgpOwo8L3NjcmlwdD4KPC9ib2R5Pgo8L2h0bWw+Cg==
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tablefly Studio (India) — Restaurant Websites That Fill Tables</title>
+<meta name="description" content="Tablefly Studio builds fast, beautiful websites for restaurants, cafés and food brands across India — photo menus, one-tap booking and WhatsApp ordering. Fixed prices in ₹, pay by UPI. Free demo first: pay only if you like it.">
+<link rel="icon" type="image/png" href="https://tablefly-studio.netlify.app/https://tablefly-studio.netlify.app/assets/tablefly-profile-icon-final.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="brand" href="#top" aria-label="Tablefly Studio — home">
+      <img src="https://tablefly-studio.netlify.app/https://tablefly-studio.netlify.app/assets/tablefly-logo-final.png" alt="Tablefly Studio logo" width="44" height="44">
+      <span class="brand-name">Tablefly <em>Studio</em></span>
+    </a>
+    <nav class="main-nav" aria-label="Main">
+      <a href="#how">How it works</a>
+      <a href="#demo">Demo</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#enquiry">Contact</a>
+      <span class="market-pill" role="group" aria-label="Choose your market">
+        <a class="on" href="#top" data-set-market="india/" aria-current="page">India</a>
+        <a href="../worldwide/" data-set-market="worldwide/" title="Switch to the Worldwide page (USD pricing)">Worldwide</a>
+      </span>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-in">
+      <div class="hero-copy">
+        <p class="kicker">Tablefly Studio — Websites for Restaurants</p>
+        <h1>Websites that <em>fill</em> tables.</h1>
+        <p class="hero-sub">We design fast, beautiful websites for restaurants, cafés and food brands — with your photo menu, one-tap booking and direct ordering built in from day one.</p>
+        <div class="offer-badge">🎉 <strong>Free demo first</strong> — we build your demo before you pay anything. Pay only if you like it.</div>
+        <div class="hero-ctas">
+          <a class="btn btn-ghost btn-lg" href="#demo">See a live demo</a>
+          <a class="btn btn-primary btn-lg" href="#enquiry">Get my free demo</a>
+        </div>
+        <p class="hero-note">You purchase your domain in your own name — it stays entirely yours.</p>
+      </div>
+      <div class="hero-arch">
+        <img src="https://tablefly-studio.netlify.app/https://tablefly-studio.netlify.app/assets/hero-tikka.jpg" alt="Chicken tikka kebabs fresh off the grill" width="1200" height="1500">
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNEY -->
+  <section id="how" class="section journey">
+    <div class="wrap">
+      <p class="eyebrow center">How it works</p>
+      <h2 class="center">Four steps between you<br>and a full house</h2>
+      <div class="journey-grid">
+        <div class="jstep rv">
+          <span class="num">01</span>
+          <h3>Share your restaurant&#8217;s details</h3>
+          <p>Complete the short enquiry form below with your restaurant&#8217;s name, city and cuisine. It takes about two minutes.</p>
+        </div>
+        <div class="jstep rv">
+          <span class="num">02</span>
+          <h3>Review your free demo</h3>
+          <p>We design a demo homepage for your restaurant and email you the link — a real design with your name and your menu. The demo is free, and you pay only if you approve it.</p>
+        </div>
+        <div class="jstep rv">
+          <span class="num">03</span>
+          <h3>Go live in 5–7 working days</h3>
+          <p>Once you approve the demo and complete a short requirements checklist, your complete website goes live within 5–7 working days — guaranteed in writing.</p>
+        </div>
+        <div class="jstep rv">
+          <span class="num">04</span>
+          <h3>Bookings &amp; orders, direct to you</h3>
+          <p>Guests reserve tables and place orders directly through your website — no middlemen, and no commission on your orders.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEMO -->
+  <section id="demo" class="section">
+    <div class="wrap">
+      <p class="eyebrow center">Live demo</p>
+      <h2 class="center">Review a live sample first</h2>
+      <p class="section-sub center">A real demo homepage, built for an actual restaurant — the same free demo we will prepare for you.</p>
+      <article class="demo-card rv">
+        <img src="https://tablefly-india.netlify.app/https://tablefly-india.netlify.app/assets/tandoori-platter.jpg" alt="Tandoori mixed platter" loading="lazy">
+        <div class="demo-body">
+          <h3>Cafe Kebabs — sample demo homepage</h3>
+          <p>A complete working sample: a photo menu that reads clearly on any phone (no pinch-and-zoom PDFs), your genuine Google rating displayed prominently, and one-tap WhatsApp ordering. The demo uses sample food photography — your finished website will feature your own dishes.</p>
+          <a class="btn btn-primary" href="https://cafe-kebabs-demo-k9p2x7m.netlify.app/" target="_blank" rel="noopener">View the live demo</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PRICING — dark centerpiece band -->
+  <section id="pricing" class="pricing-band">
+    <div class="wrap">
+      <p class="kicker center">Pricing</p>
+      <h2 class="center">Everything you need.<br><em>Nothing you don't.</em></h2>
+      <p class="band-sub center">One fixed price, published right here. No sales call needed to find out what your website costs.</p>
+
+      <div class="feat-row">
+        <div class="feat">
+          <span class="fnum">( 01 )</span>
+          <h3>Photo menu</h3>
+          <p>Your dishes, photographed and readable on any phone — no PDF pinch-zoom.</p>
+        </div>
+        <div class="feat">
+          <span class="fnum">( 02 )</span>
+          <h3>One-tap booking</h3>
+          <p>Guests reserve a table straight from the page, in one tap.</p>
+        </div>
+        <div class="feat">
+          <span class="fnum">( 03 )</span>
+          <h3>WhatsApp ordering</h3>
+          <p>Orders land on your WhatsApp — direct from guest to you.</p>
+        </div>
+        <div class="feat">
+          <span class="fnum">( 04 )</span>
+          <h3>Your real Google rating, up front</h3>
+          <p>Your rating and reviews shown where guests decide.</p>
+        </div>
+        <div class="feat">
+          <span class="fnum">( 05 )</span>
+          <h3>No middleman commission</h3>
+          <p>Every booking and order is yours — no platform cut.</p>
+        </div>
+      </div>
+
+      <figure class="band-photo">
+        <img src="../assets/hotel-india.webp" alt="Grand Indian palace-style luxury hotel" loading="lazy">
+      </figure>
+
+      <div class="price-grid">
+        <article class="price-card rv">
+          <h3>Basic</h3>
+          <p class="price">₹7,999</p>
+          <p class="price-note">one-time</p>
+          <ul>
+            <li>One-page website</li>
+            <li>Photo menu</li>
+            <li>WhatsApp order button</li>
+            <li>Google Maps + your reviews</li>
+          </ul>
+          <a class="btn btn-outline-light" href="#enquiry">Start with a free demo</a>
+        </article>
+        <article class="price-card featured rv">
+          <p class="tag">Best value</p>
+          <h3>Standard</h3>
+          <p class="price">₹12,999</p>
+          <p class="price-note">one-time</p>
+          <ul>
+            <li>Everything in Basic</li>
+            <li>Booking / enquiry form</li>
+            <li>Photo gallery</li>
+            <li>Two-language menu page</li>
+          </ul>
+          <a class="btn btn-light" href="#enquiry">Start with a free demo</a>
+        </article>
+      </div>
+
+      <div class="guarantee-strip">
+        <p><strong>Go live in 5–7 working days — guaranteed in writing.</strong> If we are ever late for a reason on our side, your first month of maintenance is free.</p>
+        <p class="g-line2">Written invoice before you pay anything. Your domain is bought in your own name — your website stays 100% yours.</p>
+      </div>
+      <p class="maintenance-line"><strong>Optional maintenance — ₹799/month.</strong> Menu updates, photo changes and small tweaks handled for you — 2 small updates a month included. Cancel anytime.</p>
+    </div>
+  </section>
+
+  <!-- ENQUIRY FORM -->
+  <section id="enquiry" class="section enquiry">
+    <div class="wrap">
+      <p class="eyebrow center">Free demo</p>
+      <h2 class="center">Request your free demo</h2>
+      <p class="section-sub center">Share your restaurant&#8217;s details. You will receive an instant confirmation email with the demo details and next steps — and a personal reply from us.</p>
+      <div class="trustrow">
+        <span>✓ Free demo before you pay anything</span>
+        <span>✓ Written invoice before any payment</span>
+        <span>✓ Your details are never sold or shared</span>
+      </div>
+      <form class="eform" action="https://formsubmit.co/hello.tablefly@gmail.com" method="POST">
+        <div class="cardhead">
+          <img src="https://tablefly-studio.netlify.app/https://tablefly-studio.netlify.app/assets/tablefly-profile-icon-final.png" alt="Tablefly Studio sun logo">
+          <b>Tablefly Studio</b><span>RESTAURANT ENQUIRY</span>
+        </div>
+        <input type="hidden" name="_subject" value="New restaurant enquiry — Tablefly Studio (India)">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_autoresponse" value="Thank you for contacting Tablefly Studio. Your enquiry has reached us safely — we reply personally, usually within one working day (Mon-Sat, India time). Here is what happens next: (1) We audit how your restaurant looks online today — website, Google profile, menu and reviews — free of charge. (2) We build a free demo homepage of YOUR restaurant and email you the link: real design, your name, your menu — not a template screenshot. (3) If you like the demo, you approve it and we build your full website. It goes live within 5-7 working days of us receiving your complete requirements and advance — guaranteed in writing: if we are late for a reason on our side, your first month of maintenance is free. India pricing (fixed, published on our website): Basic Rs 7,999, Standard Rs 12,999, optional maintenance Rs 799/month. You receive a written invoice before you pay anything, and your domain is always bought in your own name — your website stays 100% yours. Anything else you would like us to know about your restaurant? Just reply to this email. — Tablefly Studio · Websites that fill tables.">
+        <input type="hidden" name="_next" value="thankyou.html">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+        <input type="hidden" name="market" value="India">
+        <div class="row">
+          <div>
+            <label for="in-name">Your full name</label>
+            <input id="in-name" type="text" name="contact_name" placeholder="e.g., Rohit Sharma" required>
+          </div>
+          <div>
+            <label for="in-rest">Restaurant name</label>
+            <input id="in-rest" type="text" name="restaurant_name" placeholder="e.g., Cafe Kebabs" required>
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <label for="in-email">Work email</label>
+            <input id="in-email" type="email" name="email" placeholder="you@yourrestaurant.in" required>
+          </div>
+          <div>
+            <label for="in-tel">Contact number <span class="opt">(optional)</span></label>
+            <input id="in-tel" type="tel" name="contact_number" placeholder="With country code">
+          </div>
+        </div>
+        <label for="in-city">City &amp; country</label>
+        <input id="in-city" type="text" name="city_country" placeholder="e.g., Jaipur, India" required>
+        <label for="in-msg">Anything we should know? <span class="opt">(optional)</span></label>
+        <textarea id="in-msg" name="message" rows="3" placeholder="e.g., We have no website yet — guests only find us on Instagram"></textarea>
+        <label class="consent"><input type="checkbox" required><span>I confirm this is a business enquiry and I agree to be contacted about it by email.</span></label>
+        <button class="btn btn-lg" type="submit">Request my free demo</button>
+        <p class="fine">Giving your number is optional. If you share it, it is used only to coordinate your service if you become a client — never for sales calls. Your details stay with Tablefly Studio and are used only to reply to this enquiry.</p>
+      </form>
+      <p class="section-sub center" style="margin-top:1.8em">Prefer email? Write to us at <a href="mailto:hello.tablefly@gmail.com">hello.tablefly@gmail.com</a></p>
+    </div>
+  </section>
+
+</main>
+
+<img class="skyline" src="../assets/skyline-india.webp" alt="Illustrated skyline of India's famous landmarks" loading="lazy">
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="brand-line">Websites that fill <em>tables.</em></p>
+    <p class="footer-sub">Web design studio for restaurants, cafés &amp; food brands.</p>
+    <p class="footer-meta"><a href="mailto:hello.tablefly@gmail.com">Contact us</a></p>
+    <p class="footer-links"><a href="../terms.html">Terms &amp; Conditions</a> · <a href="../privacy.html">Privacy Policy</a></p>
+    <p class="footer-copy">© Tablefly Studio</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // Market switch links: remember the manual choice so the gateway
+  // auto-detect does not bounce the visitor back.
+  document.querySelectorAll('[data-set-market]').forEach(function(a){
+    a.addEventListener('click', function(){
+      try{ localStorage.setItem('tablefly-market', a.getAttribute('data-set-market')); }catch(e){}
+    });
+  });
+  // Header shadow on scroll
+  var header = document.querySelector('.site-header');
+  if(header){
+    var onScroll = function(){ header.classList.toggle('scrolled', window.scrollY > 8); };
+    window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+  }
+  // Scroll reveal
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var targets = document.querySelectorAll('.rv');
+  if('IntersectionObserver' in window && !reduce){
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('rv-in'); io.unobserve(e.target); } });
+    }, {threshold: .12});
+    targets.forEach(function(el){ io.observe(el); });
+  } else {
+    targets.forEach(function(el){ el.classList.add('rv-in'); });
+  }
+})();
+</script>
+</body>
+</html>
