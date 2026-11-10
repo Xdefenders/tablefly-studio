@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Malabar — Darlinghurst · Sydney | Demo by Tablefly Studio</title>
+<style>
+  :root{--cream:#FFF6EA;--paper:#FFFDF8;--ink:#3B2314;--terra:#7A4A21;--mustard:#F2B234;--soft:#F7E8D3;--wa:#1FA855}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:Georgia,'Times New Roman',serif;background:var(--cream);color:var(--ink)}
+  img{display:block;max-width:100%}
+  .demo-banner{background:var(--ink);color:#FFE9C9;text-align:center;font-family:Verdana,sans-serif;
+    font-size:12.5px;padding:9px 14px;letter-spacing:.2px}
+  .demo-banner b{color:var(--mustard)}
+  header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;
+    padding:14px 22px;background:rgba(255,246,234,.95);border-bottom:2px solid var(--soft);
+    position:sticky;top:0;z-index:40}
+  .brand{font-size:23px;font-weight:bold}
+  .brand span{color:var(--terra)}
+  .rating{font-family:Verdana,sans-serif;background:#fff;border:2px solid var(--soft);border-radius:22px;
+    padding:6px 14px;font-size:13.5px;box-shadow:0 3px 10px rgba(59,35,20,.08)}
+  .rating b{color:var(--terra)}
+  .hero{max-width:1080px;margin:0 auto;padding:38px 20px 8px}
+  .hero h1{font-size:clamp(34px,6vw,58px);line-height:1.08;margin:12px 0 10px}
+  .hero h1 em{color:var(--terra);font-style:italic}
+  .hero p.tag{font-size:clamp(16px,2.3vw,20px);color:#6B4A2F;max-width:640px}
+  .area{font-family:Verdana,sans-serif;font-size:12.5px;letter-spacing:1.2px;text-transform:uppercase;color:var(--terra);font-weight:bold}
+  .heroimg{width:100%;height:clamp(240px,44vw,430px);object-fit:cover;border-radius:18px;margin-top:22px;
+    box-shadow:0 14px 34px rgba(59,35,20,.18)}
+  .v0 .hero{text-align:center}.v0 .hero p.tag{margin:0 auto}.v0 .btns{justify-content:center}
+  .v1 .hero{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:center}
+  .v1 .heroimg{margin-top:0;height:100%;min-height:280px}
+  @media(max-width:760px){.v1 .hero{grid-template-columns:1fr}}
+  .v2 .hero{padding-top:0}.v2 .heroimg{border-radius:0 0 18px 18px;margin-top:0}
+  .btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+  .btn{font-family:Verdana,sans-serif;padding:13px 24px;border-radius:28px;font-size:15px;font-weight:bold;text-decoration:none}
+  .btn.main{background:var(--terra);color:#fff;box-shadow:0 8px 18px rgba(59,35,20,.25)}
+  .btn.wa{background:var(--wa);color:#fff;box-shadow:0 8px 18px rgba(31,168,85,.3)}
+  .btn.ghost{background:#fff;color:var(--ink);border:2px solid var(--ink)}
+  .facts{max-width:1080px;margin:26px auto 0;padding:0 20px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  @media(max-width:760px){.facts{grid-template-columns:1fr}}
+  .fact{background:#fff;border:2px solid var(--soft);border-radius:14px;padding:16px 18px;font-size:15.5px}
+  .fact b{color:var(--terra)}
+  .menu{max-width:1080px;margin:40px auto 0;padding:0 20px}
+  .menu h2{font-size:clamp(26px,4vw,36px)}
+  .note{font-family:Verdana,sans-serif;background:#FFF3D6;border:1.5px dashed var(--mustard);border-radius:12px;
+    padding:10px 16px;font-size:13.5px;margin:14px 0 22px}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:520px){.grid{grid-template-columns:1fr}}
+  .v1 .grid{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:520px){.v1 .grid{grid-template-columns:1fr}}
+  .card{background:var(--paper);border:2px solid var(--soft);border-radius:16px;overflow:hidden}
+  .card img{width:100%;height:150px;object-fit:cover}
+  .v1 .card{display:grid;grid-template-columns:150px 1fr}.v1 .card img{height:100%}
+  .card .tx{padding:12px 14px}
+  .card h3{font-size:17px;margin-bottom:5px}
+  .card p{font-size:13.5px;color:#6B4A2F;line-height:1.45}
+  .cta{max-width:1080px;margin:36px auto 0;padding:0 20px}
+  .cta .box{background:#fff;border:2px solid var(--soft);border-radius:16px;padding:22px;text-align:center}
+  .cta h3{font-size:22px;margin-bottom:8px}
+  .cta p{color:#6B4A2F;font-size:15px}
+  .cta .btns{justify-content:center}
+  footer{max-width:1080px;margin:30px auto 0;padding:22px 20px 40px;text-align:center}
+  footer .fb{background:var(--ink);color:#FFE9C9;border-radius:14px;padding:16px;font-family:Verdana,sans-serif;font-size:13px}
+  footer .fb a{color:var(--mustard)}
+</style>
+</head>
+<body class="v0">
+<div class="demo-banner">Free demo website made by <b>Tablefly Studio</b> — this is a demo, not the official website.</div>
+<header>
+  <div class="brand"><span>Malabar</span></div>
+  <div class="rating">★ <b>4.4</b> · 2,025 Google reviews</div>
+</header>
+<section class="hero">
+  <div>
+    <div class="area">Darlinghurst · Sydney</div>
+    <h1>South Indian coastal dining in Darlinghurst</h1>
+    <p class="tag">Find us at Darlinghurst · Sydney — rated ★ 4.4 on Google by 2,025 reviewers.</p>
+    <div class="btns"><a class="btn main" href="https://malabarcuisine.com.au/" target="_blank" rel="noopener">Call to reserve</a><a class="btn ghost" href="https://malabarcuisine.com.au/" target="_blank" rel="noopener">Visit our website</a></div>
+  </div>
+  <img class="heroimg" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=70&auto=format&fit=crop" alt="Malabar — food and dining">
+</section>
+<section class="facts"><div class="fact"><b>✦</b> Serving Darlinghurst since 2003</div><div class="fact"><b>✦</b> Coastal South Indian dishes by Chef Mohammed Sali</div><div class="fact"><b>✦</b> Sister restaurant in Crows Nest, loved since 1992</div></section>
+<section class="menu" id="menu">
+  <h2>From the kitchen</h2>
+  <div class="note"><b>Sample menu</b> — your real dishes and prices will go here. &nbsp;·&nbsp; <b>Sample photos</b> — your own food photos will replace these. The reservation button will connect to your own phone number on the live site.</div>
+  <div class="grid"><div class="card"><img src="https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&q=70&auto=format&fit=crop" alt="Masala Dosa" loading="lazy"><div class="tx"><h3>Masala Dosa</h3><p>Crisp dosa with spiced potato and chutneys.</p></div></div><div class="card"><img src="https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=600&q=70&auto=format&fit=crop" alt="Coastal Fish Curry" loading="lazy"><div class="tx"><h3>Coastal Fish Curry</h3><p>Malabar-style fish curry with tamarind.</p></div></div><div class="card"><img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=70&auto=format&fit=crop" alt="Butter Chicken" loading="lazy"><div class="tx"><h3>Butter Chicken</h3><p>Chicken simmered in a creamy tomato-makhani gravy.</p></div></div><div class="card"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=70&auto=format&fit=crop" alt="Tandoori Kebabs" loading="lazy"><div class="tx"><h3>Tandoori Kebabs</h3><p>Char-grilled kebabs straight from the clay oven.</p></div></div><div class="card"><img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&q=70&auto=format&fit=crop" alt="Dum Biryani" loading="lazy"><div class="tx"><h3>Dum Biryani</h3><p>Fragrant basmati layered with saffron and whole spices.</p></div></div><div class="card"><img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=600&q=70&auto=format&fit=crop" alt="Paneer Tikka" loading="lazy"><div class="tx"><h3>Paneer Tikka</h3><p>Smoked cottage-cheese skewers with mint chutney.</p></div></div><div class="card"><img src="https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600&q=70&auto=format&fit=crop" alt="Appam & Stew" loading="lazy"><div class="tx"><h3>Appam & Stew</h3><p>Lace-edged appams with a gentle coconut stew.</p></div></div><div class="card"><img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=70&auto=format&fit=crop" alt="Gulab Jamun" loading="lazy"><div class="tx"><h3>Gulab Jamun</h3><p>Warm syrup-soaked dumplings, a classic finish.</p></div></div></div>
+</section>
+<section class="cta"><div class="box">
+  <h3>Reserve your table</h3>
+  <p>Send us a message and the team will take it from there.</p>
+  <div class="btns"><a class="btn main" href="https://malabarcuisine.com.au/" target="_blank" rel="noopener">Call to reserve</a><a class="btn ghost" href="https://malabarcuisine.com.au/" target="_blank" rel="noopener">Visit our website</a></div>
+</div></section>
+<footer>
+  <div class="fb">Free demo website made by <b>Tablefly Studio</b> — this is a demo, not the official website of Malabar.<br>
+  See the real restaurant at <a href="https://malabarcuisine.com.au/" target="_blank" rel="noopener">https://malabarcuisine.com.au/</a></div>
+</footer>
+</body>
+</html>
